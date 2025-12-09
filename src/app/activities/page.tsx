@@ -13,10 +13,10 @@ export default function ActivitiesPage() {
     const [selectedActivity, setSelectedActivity] = useState<ActivityData | null>(null);
 
     const gallerySlides = [
-        { src: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=2070&auto=format&fit=crop", alt: "Students collaborating", title: "Collaborative Learning" },
-        { src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop", alt: "Mentorship session", title: "Mentorship Programs" },
-        { src: "https://images.unsplash.com/photo-1544928147-79a77456a1d3?q=80&w=2070&auto=format&fit=crop", alt: "Annual Conference", title: "Annual Conference 2024" },
-        { src: "https://images.unsplash.com/photo-1427504746696-ea5abd7dfe83?q=80&w=2070&auto=format&fit=crop", alt: "Library study", title: "Resource Sharing" },
+        { src: "/assets/images/image1.jpg", alt: "Students collaborating", title: "Collaborative Learning" },
+        { src: "/assets/images/image2.jpg", alt: "Mentorship session", title: "Mentorship Programs" },
+        { src: "/assets/images/image3.jpg", alt: "Annual Conference", title: "Annual Conference 2024" },
+        { src: "/assets/images/image4.jpg", alt: "Library study", title: "Resource Sharing" },
     ];
 
     const activities: ActivityData[] = [
@@ -26,13 +26,13 @@ export default function ActivitiesPage() {
             category: "Academic",
             description: "Organizing events to enhance students' skills and knowledge in education through expert talks and workshops.",
             fullDescription: "Our annual conferences bring together leading educators, policy makers, and students to discuss the pressing issues in the Ugandan education sector. Participants engage in panel discussions, workshops, and networking sessions designed to broaden their understanding of global and local educational trends.",
-            mainImage: "https://images.unsplash.com/photo-1544928147-79a77456a1d3?q=80&w=2070&auto=format&fit=crop",
+            mainImage: "/assets/images/image5.jpg",
             date: "Annually",
             location: "Makerere University Main Hall",
             gallery: [
-                { src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop", alt: "Keynote Speaker" },
-                { src: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop", alt: "Audience" },
-                { src: "https://images.unsplash.com/photo-1505373877841-8d43f7d38730?q=80&w=2070&auto=format&fit=crop", alt: "Workshop" },
+                { src: "/assets/images/image5.jpg", alt: "Keynote Speaker" },
+                { src: "/assets/images/image3.jpg", alt: "Audience" },
+                { src: "/assets/images/image2.jpg", alt: "Workshop" },
             ]
         },
         {
@@ -41,12 +41,12 @@ export default function ActivitiesPage() {
             category: "Training",
             description: "Providing training and mentorship to help students develop their pedagogical skills and career paths.",
             fullDescription: "We offer continuous professional development programs that focus on modern teaching methodologies, classroom management, and digital literacy. Our mentorship program connects students with experienced teachers to provide guidance and support as they transition into the workforce.",
-            mainImage: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop",
+            mainImage: "/assets/images/image2.jpg",
             date: "Monthly Workshops",
             gallery: [
-                { src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop", alt: "Training Session" },
-                { src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop", alt: "Group Work" },
-                { src: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop", alt: "Discussion" },
+                { src: "/assets/images/image2.jpg", alt: "Training Session" },
+                { src: "/assets/images/image3.jpg", alt: "Group Work" },
+                { src: "/assets/images/image4.jpg", alt: "Discussion" },
             ]
         },
         {
@@ -55,12 +55,12 @@ export default function ActivitiesPage() {
             category: "Community",
             description: "Socializing events to promote networking among members and building a strong community of future educators.",
             fullDescription: "Building a strong professional network is crucial. We organize mixers, dinners, and team-building activities that allow students to connect with peers from different universities, share experiences, and build lasting professional relationships.",
-            mainImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2069&auto=format&fit=crop",
+            mainImage: "/assets/images/image4.jpg",
             date: "Quarterly",
             gallery: [
-                { src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop", alt: "Social Mixer" },
-                { src: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop", alt: "Team Building" },
-                { src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop", alt: "Dinner" },
+                { src: "/assets/images/image4.jpg", alt: "Social Mixer" },
+                { src: "/assets/images/image3.jpg", alt: "Team Building" },
+                { src: "/assets/images/image2.jpg", alt: "Dinner" },
             ]
         }
     ];
@@ -70,7 +70,7 @@ export default function ActivitiesPage() {
             <PageHeader
                 title="Activities & Events"
                 description="Empowering members through impactful programs and gatherings."
-                imageSrc="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070&auto=format&fit=crop"
+                imageSrc="/assets/images/image5.jpg"
             />
 
             <Section>

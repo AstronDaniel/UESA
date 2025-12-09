@@ -65,7 +65,7 @@ export default function Hero() {
                         <div className="relative aspect-video overflow-hidden rounded-xl bg-muted shadow-2xl ring-1 ring-gray-900/10 dark:ring-gray-300/10">
                             {/* Dummy Image from Unsplash - Education/Classroom Theme */}
                             <Image
-                                src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop"
+                                src="/assets/images/image1.jpg"
                                 alt="Students in a classroom"
                                 fill
                                 className="object-cover"

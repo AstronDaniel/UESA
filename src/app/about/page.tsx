@@ -10,7 +10,7 @@ export default function AboutPage() {
             <PageHeader
                 title="About UESA"
                 description="Understanding the challenge and our structured approach to the solution."
-                imageSrc="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop"
+                imageSrc="/assets/images/image2.jpg"
             />
 
             {/* Problem Statement Section */}
@@ -68,7 +68,7 @@ export default function AboutPage() {
                     <div className="relative aspect-square lg:aspect-auto lg:h-[500px] overflow-hidden rounded-xl bg-muted">
                         {/* Dummy Image - Meeting/Leadership */}
                         <Image
-                            src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=2070&auto=format&fit=crop"
+                            src="/assets/images/image3.jpg"
                             alt="Committee Meeting"
                             fill
                             className="object-cover"
