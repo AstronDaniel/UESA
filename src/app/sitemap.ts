@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://uesa-uganda.org' // Replace with actual domain
+    const baseUrl = 'https://uesa-three.vercel.app' // Replace with actual domain
 
     return [
         {

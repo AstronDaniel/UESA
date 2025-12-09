@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://uesa-uganda.org/sitemap.xml',
+        sitemap: 'https://uesa-three.vercel.app/sitemap.xml',
     }
 }

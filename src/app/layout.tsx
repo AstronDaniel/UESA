@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://uesa-uganda.org",
+    url: "https://uesa-three.vercel.app",
     title: "UESA - Uganda Education Students Association",
     description: "Uniting and empowering education students in Uganda.",
     siteName: "UESA",
