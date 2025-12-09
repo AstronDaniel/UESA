@@ -26,7 +26,7 @@ export default function Navbar() {
                         <div className="relative h-10 w-10 overflow-hidden rounded-md">
                             <Image
                                 src="/assets/logo.png"
-                                alt="UESA Logo"
+                                alt="Uganda Education Students Association (UESA) Logo"
                                 fill
                                 className="object-cover"
                             />
