@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   description: "Uniting and empowering education students in Uganda to foster academic excellence, innovation, and sustainable development.",
   keywords: ["UESA", "Uganda Education Students Association", "Education Poland", "Makerere University", "Student Association", "Future Educators", "Uganda Education"],
-  authors: [{ name: "UESA Tech Team" }],
+  authors: [{ name: "Astron Daniel" }],
   creator: "UESA",
   openGraph: {
     type: "website",

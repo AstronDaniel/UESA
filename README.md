@@ -31,8 +31,8 @@ This is the official web application for the Uganda Education Students Associati
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/uesa-web.git
-    cd uesa-web
+    git clone https://github.com/AstronDaniel/UESA.git
+    cd uesa
     ```
 
 2.  **Install dependencies:**
