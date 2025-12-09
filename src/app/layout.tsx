@@ -18,8 +18,47 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "UESA - Uganda Education Students Association",
-  description: "Uniting and empowering education students in Uganda.",
+  title: {
+    default: "UESA - Uganda Education Students Association",
+    template: "%s | UESA",
+  },
+  description: "Uniting and empowering education students in Uganda to foster academic excellence, innovation, and sustainable development.",
+  keywords: ["UESA", "Uganda Education Students Association", "Education Poland", "Makerere University", "Student Association", "Future Educators", "Uganda Education"],
+  authors: [{ name: "UESA Tech Team" }],
+  creator: "UESA",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://uesa-uganda.org",
+    title: "UESA - Uganda Education Students Association",
+    description: "Uniting and empowering education students in Uganda.",
+    siteName: "UESA",
+    images: [
+      {
+        url: "/assets/og-image.jpg", // We don't have this yet but good to substitute or leave as placeholder
+        width: 1200,
+        height: 630,
+        alt: "UESA - Uganda Education Students Association",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UESA - Uganda Education Students Association",
+    description: "Uniting and empowering education students in Uganda.",
+    creator: "@uesa_uganda",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({

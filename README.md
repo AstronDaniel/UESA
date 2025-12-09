@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UESA - Uganda Education Students Association
 
-## Getting Started
+**Uniting and empowering education students in Uganda for a better future.**
 
-First, run the development server:
+This is the official web application for the Uganda Education Students Association (UESA), built to connect students, share resources, and promote educational development across the country.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   **Modern UI/UX**: Built with a "High-Creativity" aesthetic using Tailwind CSS and Framer Motion.
+-   **Dynamic Content**:
+    -   **Parallax Headers**: Engaging visual headers for every page.
+    -   **Interactive Galleries**: Swipeable image carousels for events.
+    -   **Activity Modals**: Detailed pop-ups for exploring specific events.
+-   **Core Functionality**:
+    -   **Membership Portal**: Information and application forms for new members.
+    -   **Events Calendar**: Showcasing past and upcoming conferences and workshops.
+    -   **Dark Mode**: Fully supported light/dark themes with smooth transitions.
+-   **Responsive Design**: Optimized for all devices, from mobile phones to desktops.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+-   **Carousel**: [Embla Carousel](https://www.embla-carousel.com/)
+-   **Theming**: [next-themes](https://github.com/pacocoursey/next-themes)
 
-## Learn More
+## 📦 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/uesa-web.git
+    cd uesa-web
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+4.  **Open your browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is optimized for deployment on [Vercel](https://vercel.com).
+
+1.  Push your code to a GitHub repository.
+2.  Import the project in Vercel.
+3.  Vercel will detect Next.js and deploy automatically.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to urge specific features or report bugs via the Issues tab.
+
+## 📄 License
+
+This project is licensed under the MIT License.

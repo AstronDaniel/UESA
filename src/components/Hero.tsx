@@ -32,7 +32,7 @@ export default function Hero() {
                     >
                         <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-primary">
                             <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
-                            The Future of Education in Uganda
+                            Uganda Education Students Association (UESA)
                         </div>
                         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
                             Empowering Future <span className="text-primary">Educators</span> & Leaders
